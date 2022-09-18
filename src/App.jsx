@@ -28,7 +28,7 @@ function App() {
         className="App"
         onSubmit={formik.handleSubmit}
       >
-        {/* ----- Name ----- */}
+        {/* ----- Name Input ----- */}
         <TextField
           label="Name"
           variant="outlined"
@@ -42,7 +42,7 @@ function App() {
           helperText={formik.touched.name && formik.errors.name}
         />
 
-        {/* ----- Email ----- */}
+        {/* ----- Email Input ----- */}
         <TextField
           label="Email Address"
           variant="outlined"
