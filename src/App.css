@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  width: 100%;
+  background: rgb(228, 228, 228);
+}
+
+.App {
+  background: rgb(247, 246, 245) none repeat scroll 0% 0%;
+  box-shadow: 10px 10px 10px black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  border-radius: 13px;
+  padding: 2%;
+}
+
+h3,
+h6 {
+  padding: 0;
+  margin: 0;
+}
